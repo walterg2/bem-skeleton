@@ -7,7 +7,7 @@ This project is a skeleton setup of an SCSS-based BEM CSS architecture.
 
 If you don't already have yarn installed:
 ```
-npm install -g yarn
+npm install -g yarn chokidar-cli postcss-cli autoprefixer npm-run-all
 ```
 
 ### Install dependencies
