@@ -14,6 +14,7 @@
   "author": "George T. Walters II <george.walters@teamnorthwoods.com>",
   "license": "MIT",
   "dependencies": {
-    "node-sass-chokidar": "^1.4.0"
+    "node-sass-chokidar": "^1.4.0",
+    "normalize.css": "^8.0.1"
   }
 }
