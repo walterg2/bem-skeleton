@@ -1,0 +1,19 @@
+{
+  "name": "bem-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-task:scss-compile": "node-sass-chokidar --source-map true src/scss/ -o dist/css",
+    "build-task:autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
+    "sass:build": "npm-run-all -p build-task:*",
+    "sass:watch": "chokidar 'src/scss/**/*.scss' -c 'npm run sass:build'",
+    "dev": "npm-run-all -p sass:*"
+  },
+  "keywords": [],
+  "author": "George T. Walters II <george.walters@teamnorthwoods.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass-chokidar": "^1.4.0"
+  }
+}
