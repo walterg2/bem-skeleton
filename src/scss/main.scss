@@ -1,12 +1,16 @@
 @charset 'UTF-8';
 
 // 1. Configuration and Helpers
-@import 'abstracts/_variables';
+@import
+  'abstracts/mixins',
+  'abstracts/variables';
 
 // 2. Vendor Files
 @import '../../node_modules/normalize.css/normalize';
 
 // 3. Base stuff
+@import
+  'base/_base';
 
 
 // 4. Layout-related sections
