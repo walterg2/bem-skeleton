@@ -18,3 +18,9 @@ $text-color: rgb(51, 51, 51) !default;
 /// Main brand color
 /// @type Color
 $brand-color: rgb(229, 0, 80) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
